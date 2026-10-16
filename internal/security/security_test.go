@@ -740,7 +740,6 @@ func TestUvLockIsPassedToOsvScanner(t *testing.T) {
 	}
 }
 
-
 // Dropping pyproject.toml from the scan without saying so would trade a
 // loud failure for a silent one: a Python repository reported clean by a
 // scanner that never looked. It gets the same honest gap a bare

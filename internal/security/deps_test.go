@@ -137,7 +137,6 @@ func TestTouchingOnlyUvLockTriggersTheScan(t *testing.T) {
 	}
 }
 
-
 // A path that arrives relative must trigger the scan too — the same file
 // cannot mean two things depending on how it was named.
 // proved by: matched on the raw string instead of gitx.RepoRel — an
